@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Markdown on My Blog</title>
+    <link>http://192.168.18.59:1313/tags/markdown/</link>
+    <description>Recent content in Markdown on My Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© 2025 </copyright>
+    <lastBuildDate>Fri, 27 Oct 2023 00:00:00 +0000</lastBuildDate><atom:link href="http://192.168.18.59:1313/tags/markdown/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Kitchen Sink: Blowfish Features Demo</title>
+      <link>http://192.168.18.59:1313/posts/kitchen-sink/</link>
+      <pubDate>Fri, 27 Oct 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://192.168.18.59:1313/posts/kitchen-sink/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://192.168.18.59:1313/posts/kitchen-sink/featured.jpg" />
+    </item>
+    
+  </channel>
+</rss>

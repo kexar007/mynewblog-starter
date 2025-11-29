@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Nature on My Blog</title>
+    <link>http://192.168.18.59:1313/tags/nature/</link>
+    <description>Recent content in Nature on My Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© 2025 </copyright>
+    <lastBuildDate>Thu, 30 Nov 2023 00:00:00 +0000</lastBuildDate><atom:link href="http://192.168.18.59:1313/tags/nature/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>The Beauty of Mountains</title>
+      <link>http://192.168.18.59:1313/posts/feaured-demo-post/</link>
+      <pubDate>Thu, 30 Nov 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://192.168.18.59:1313/posts/feaured-demo-post/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://192.168.18.59:1313/posts/feaured-demo-post/featured.jpg" />
+    </item>
+    
+  </channel>
+</rss>

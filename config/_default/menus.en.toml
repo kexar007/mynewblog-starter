@@ -1,0 +1,65 @@
+# -- Main Menu --
+# Displayed in the header. 
+# Ordered by 'weight' (lowest to highest).
+
+[[main]]
+  name = "Home"
+  pageRef = "/"
+  weight = 10
+
+[[main]]
+  name = "Blog"
+  pageRef = "posts"
+  weight = 20
+
+# -- Dropdown Example --
+# This creates a "Topics" menu with "Tags" and "Categories" inside it.
+[[main]]
+  name = "Topics"
+  identifier = "topics"  # Unique ID for the parent
+  weight = 30
+
+[[main]]
+  name = "All Tags"
+  pageRef = "tags"
+  parent = "topics"      # Must match the identifier above
+  weight = 1
+
+[[main]]
+  name = "Categories"
+  pageRef = "categories"
+  parent = "topics"
+  weight = 2
+
+# -- External Link Example --
+# Link to an external site (like GitHub, Twitter, or a Portfolio)
+[[main]]
+  name = "My Portfolio"
+  url = "https://github.com/" # Change this to your URL
+  weight = 40
+  
+# -- About Page --
+# Ensure you have created 'content/about.md' for this to work
+[[main]]
+  name = "About"
+  pageRef = "about"
+  weight = 50
+
+
+# -- Footer Menu --
+# Displayed at the very bottom.
+
+[[footer]]
+  name = "Home"
+  pageRef = "/"
+  weight = 10
+
+[[footer]]
+  name = "Blog"
+  pageRef = "posts"
+  weight = 20
+
+[[footer]]
+  name = "Tags"
+  pageRef = "tags"
+  weight = 30
