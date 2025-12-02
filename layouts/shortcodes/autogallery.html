@@ -1,0 +1,27 @@
+{{/* 
+  FIXED DARK GALLERY
+  - Uses inline styles (style="width: 150px") to force size 
+  - overrides any theme defaults securely
+*/}}
+<div class="not-prose w-full mx-auto bg-black p-4 rounded-xl shadow-2xl mb-8">
+  
+  <div class="flex flex-wrap justify-center gap-4">
+    {{ range .Page.Resources.ByType "image" }}
+      
+      {{/* Wrapper controls the width securely */}}
+      <div class="relative group" style="width: 150px; max-width: 150px;">
+        <a href="{{ .RelPermalink }}" target="_blank" class="block w-full h-full">
+          <img 
+            src="{{ .RelPermalink }}" 
+            alt="{{ .Name }}" 
+            class="w-full h-auto rounded-md border border-gray-700 object-cover"
+            style="width: 100% !important; height: auto !important; margin: 0 !important;" 
+            loading="lazy"
+          >
+        </a>
+      </div>
+
+    {{ end }}
+  </div>
+
+</div>
